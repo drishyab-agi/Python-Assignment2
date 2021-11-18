@@ -9,7 +9,7 @@ def binarysearch(arr, start,end ,key):
             return binarysearch(arr,mid+1,end,key)
     else:
         return -1
-arr=sorted([4,5,3,5,7])
+arr=sorted([4,5,3,6,7])
 key=3
 result=binarysearch(arr,0,len(arr)-1, key)
 if result!=-1:
